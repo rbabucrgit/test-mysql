@@ -16,6 +16,8 @@ public class MySqlConnectionTest {
 			} else {
 				System.out.println("Failed to make connection!");
 			}
+			
+			System.out.println("log1");
 
 		} catch (SQLException e) {
 			System.err.format("SQL State: %s\n%s", e.getSQLState(), e.getMessage());
